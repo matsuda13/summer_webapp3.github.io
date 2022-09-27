@@ -13,3 +13,6 @@
 
 - 屋比久 猛成 \
     -   e205744@ie.u-ryukyu.ac.jp
+    
+- 船迫　龍之介 \
+    -   e205732@ie.u-ryukyu.ac.jp
