@@ -1,1 +1,2 @@
-document.write("ゴミトリ");
+const header = document.getElementById('productName');
+header.textContent = 'ゴミトリ';
