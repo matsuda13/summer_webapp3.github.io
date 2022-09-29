@@ -1,4 +1,15 @@
 #productName {
-  background-color: #9898ec;
-  outline: 3px solid #f7b6b6;
+  background-color: #0099FF;
+  outline: 3px solid #99FFFF;
+  color: #FFFFFF; 
+  font-size: 60px;
+  text-align: center;
+}
+
+#all-center {
+  text-align: center;
+}
+
+select {
+  font-size: 20pt;
 }
