@@ -8,16 +8,20 @@ const select = document.querySelector('[name="trash"]');
 
 select.onchange = event => {
   const answer = document.getElementById('answer');
-  answer.textContent = trash_disposal_methods[select.selectedIndex];
+  answer.textContent = select.value + 'は' + trash_disposal_methods[select.selectedIndex] + 'です！';
   
   //ここがゴミの種類の画像表示
   if (select.selectedIndex != 0) {
     const image = document.getElementById('image');
     image.src = 'img/' + select.selectedIndex + '.png'; 
+    //ここで説明文と画像を表示
+    answer.style = 'display:on';
     image.style = 'display:on';
   }
   else {
     const image = document.getElementById('image');
+    //ここで説明文と画像を非表示
+    answer.style = 'display:none';
     image.style = 'display:none';
   }
 }
