@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<link rel="stylesheet" href="index.css">
 <html>
 
 <head>
@@ -13,14 +14,28 @@
 
   <p>何ゴミなのかお答えします。あなたが捨てたいゴミは？</p>
   <select name="trash" id="">
-    <option value="bin">---</option>
+    <option value="">---</option>
     <option value="bin">ビニール</option>
     <option value="newsprint">新聞紙</option>
     <option value="pet">ガラスコップ</option>
+    <option value="bed">ベッド</option>
   </select>
   <p id="answer"></p>
 
-  <img id='image' width="100%" height="100%"></img>
+  <img id='image' width="60%" height="60%"></img>
+
+  <p>ゴミの処理方法をお答えします。どんなゴミが捨てたいですか？</p>
+  <select name="trash_category" id="">
+    <option value="">---</option>
+    <option value="burnable">燃えるゴミ</option>
+    <option value="recyclable">資源化物</option>
+    <option value="non-burnable">燃えないゴミ</option>
+    <option value="oversize">粗大ゴミ</option>
+    <option value="uncollected">収集されないゴミ</option>
+    <option value="poster">全体</option>
+  </select>
+  
+  <img id='category_image' width="60%" height="60%"></img>
   
   <script src="index.js"></script>
 </body>
