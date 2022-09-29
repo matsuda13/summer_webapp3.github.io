@@ -40,10 +40,3 @@ select_category.onchange = event => {
     category_image.style = 'display:none';
   }
 }
-
-
-
-
-
-
-  
